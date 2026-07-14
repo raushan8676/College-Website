@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+    margin: 0;
+    background-image: url(cvru4.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    height: 460px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.signup-section h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.login-section {
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-section h1 {
+    margin-left: 100px;
+}
+
+.login-section button {
+    margin-left: 70px;
+}
+
+.signup-section {
+    background: white;
+    padding: 40px;
+}
+
+
+p {
+    margin: 10px 0 20px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-icons i {
+    margin: 10px;
+}
+
+h2{
+    margin: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #ff5f6d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70%;
+}
+
+button.sign-up {
+    background: #ffc371;
+}
+
+button:hover {
+    opacity: 0.9;
+}
